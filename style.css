@@ -155,7 +155,8 @@ li{
     .Cs2,
     .Cs3,
     .Cs4 {
-        width: 47vw;
+        padding: 5px;
+        width: 20vw;
         margin-bottom: 50px;
     }
 }
