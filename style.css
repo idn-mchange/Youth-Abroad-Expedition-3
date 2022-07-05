@@ -97,7 +97,7 @@ li{
     margin-bottom: 20px;
 }
 .Csa1, .Csa2, .Csa3, .Csa4{
-    padding: 20px;
+    padding: 10px;
     color: #000;
     font-weight: bold;
     background-color: var(--cee--);
@@ -106,7 +106,7 @@ li{
     margin-bottom: 20px;
 }
 .Csa1:hover, .Csa2:hover, .Csa3:hover, .Csa4:hover{
-    padding: 20px;
+    padding: 10px;
     color: var(--cee--);
     font-weight: bold;
     background-color: #000;
@@ -155,8 +155,8 @@ li{
     .Cs2,
     .Cs3,
     .Cs4 {
-        padding: 5px;
-        width: 20vw;
+        width: fit-content;
+        font-size: 12px;
         margin-bottom: 50px;
     }
 }
