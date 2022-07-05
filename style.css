@@ -137,7 +137,7 @@ li{
         margin-top: 40px;
         padding: 20px;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .logos-imc-b {
         width: 20vw;
     }
@@ -169,7 +169,7 @@ li{
 .img-sq{text-align: center;}
 .img-sq-b{width: 40vw;border-radius: 200px;box-sizing: border-box;box-shadow: #fff 200px 0px ;}
 .s-tk-p{margin: 60px;}
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     .img-sq-b{width: 75vw;box-shadow: #fff 0px 20px;}
 }
 /*! Section Ekspedisi ************************************************************************************/
@@ -189,7 +189,7 @@ li{
         margin-left: 20px;
 }
 .img-eks{width: 27vw; margin-right: 60px;}
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     .sw{
         height: 85vh;
     }
@@ -228,7 +228,7 @@ li{
 .img-surat-b{
     width: 50vw;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .surat-h{
         font-size: 20px;
             font-weight: bold;
@@ -317,7 +317,7 @@ li{
     z-index: 1;
 }
 .st-img{position: relative;z-index: 2;}
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     .st{
         padding: 10px;
     }
