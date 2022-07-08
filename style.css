@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+/*font-family: 'Source Serif Pro', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
 :root {
     --background--: #fff;
     --daftar: #1791ef;
@@ -18,7 +26,7 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 body {
     background: #000;
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     overflow-x: hidden;
     line-height: 1.8;
@@ -69,10 +77,10 @@ li{
 /*! ORIENTED ERROR CODE**********************************************************************************************************************************************/
 .Oriented {
     position: relative;
-    box-sizing: border-box;
-    border: #ffffff00 1px solid;
     height: 100vh;
     text-align: center;
+    box-sizing: border-box;
+    border: #ffffff00 1px solid;
     z-index: 0;
     color: #fff;
 }
@@ -165,27 +173,44 @@ li{
     }
 }
 /*! Section Tentang Kami ************************************************************************************/
-.sq{background-color: var(--bg-2--); color: var(--bg-1--);}
+.sq{background-color: var(--bg-2--); color: var(--bg-1--);
+    
+}
 .s-tk-h1{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
     margin: 20px 0px 20px 0px;
-    font-size: 3.5em;
 }
 .img-sq{text-align: center;}
-.img-sq-b{width: 40vw;border-radius: 200px;box-sizing: border-box;box-shadow: #fff 200px 0px ;}
+.img-sq-b{width: 40vw;border-radius: 200px;box-sizing: border-box;box-shadow: #fff 120px 0px ;}
 .s-tk-p{margin: 60px;}
 @media only screen and (max-width: 768px) {
+    .sq{
+        padding: 40px;
+    }
+    .s-tk-p{
+        margin: 0vw;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .img-sq-b{
+        margin-bottom: 40px;
+    }
+    .s-tk-h1{
+        font-size: 2em;
+    }
     .img-sq-b{width: 75vw;box-shadow: #fff 0px 20px;}
 }
 /*! Section Ekspedisi ************************************************************************************/
 .sw{height: 100vh ;background-color: var(--bg-1--); padding-top: 30px;}
-.margin-sw{margin:0px 50px 0px 50px}
 .p-eks{
     padding: 15px;
 }
 .p-eks-h{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
     text-align: center;
-    font-weight: bold;
 }
 .sw-elementor-two{
     display: flex;
@@ -193,16 +218,20 @@ li{
         justify-content: space-between;
         margin-left: 20px;
 }
-.img-eks{width: 27vw; margin-right: 60px;}
+.img-eks{width: 24vw; margin-right: 60px;}
 @media only screen and (max-width: 768px){
     .sw{
         height: 85vh;
+        padding: 40px;
+    }
+    .p-eks{
+        padding: 0px;
+    }
+    .p-eks-h {
+        font-size: 20px;
     }
     .p-eks-chld{
-        font-size: 13px;
-    }
-    .margin-sw{
-        margin: 0px 20px 0px 20px;
+        font-size: 12px;
     }
     .sw-elemntor{
         display: flex;
@@ -212,21 +241,22 @@ li{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0;
+        
     }
     .img-eks{
         width: 37vw;
         margin: 0;
     }
     .sw-li{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 /*! Section Ekspedisi ************************************************************************************/
 .se{background-color: var(--bg-2--);color: #032539;}
 .surat-h{
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -291,6 +321,18 @@ li{
     background-color: var(--bg-1--);
     text-align: center;
 }
+.yt-h, .yt-h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif';
+}
+.yt-h2{
+    font-size: 2em;
+}
+.yt-vb{
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
 @media only screen and (max-width: 768px) {
     .sr{
         padding: 10px 30px 20px 30px;
@@ -335,7 +377,8 @@ li{
 .st-ha {
     width: fit-content;
     background-color: var(--bg-1--);
-    font-size: larger;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     border-radius: 20px;
     margin: 0 auto;
@@ -381,7 +424,7 @@ li{
 
 @media only screen and (max-width: 768px) {
     .st {
-        padding: 0px;
+        padding: 8px;
     }
 
     .st-ha {
@@ -404,6 +447,7 @@ li{
         flex-wrap: wrap;
         font-size: 13px;
         margin: 0px auto;
+        margin-bottom: 10px;
     }
 
     .st-bglist {
@@ -478,47 +522,82 @@ p#hari, #jam, #menit, #detik{
 /*! ********************************************************************************************************/
 
 /*! ********************************************************************************************************/
-section.si{
+section.si {
+    height: 100vh;
+    overflow: hidden;
     background-color: var(--bg-1--);
     color: #20b068;
     padding: 50px;
-    z-index: 0;
+    z-index: 1;
+
 }
-.programS{
+
+.programS {
     font-size: 30px;
     font-weight: bold;
 
 }
-.header-program{
+
+.header-program {
     font-weight: bold;
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
     line-height: 1;
+    text-align: center;
     margin: 0px 0px 30px 0px;
 }
-p.list-program{
+
+p.list-program {
     width: 40vw;
     line-height: 1.2;
     border-bottom: 1px solid #000;
 }
-.shape-pro-mb{
+.sili-ul{
+    margin-left: 30px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.sili-li{
+    margin-bottom: 20px;
+}
+.foto-mb{
+    margin-right: 30px;
+}
+.src-img {
     position: absolute;
+    width: 23.9vw;
+    z-index: 5;
+}
+.shape-pro-mb {
     background-color: #46daa4;
     width: 22vw;
     height: 22vw;
     border-radius: 100%;
-    z-index: 1;
+    z-index: 2;
 }
-.shape-pro-mb::after{
-    content: url(/image/IMG_0999.png);
-}
+
+
 @media only screen and (max-width: 768px) {
-    .si{
-        padding: 20px;
+
+    .si {
+        padding: 10px;
+        height: 28px;
+        overflow-y: hidden;
     }
-    .pro-h2{
+    .pro-h2 {
         font-size: larger;
     }
-    .list-program{
+
+    .list-program {
         font-size: 12px;
+    }
+    .sili-ul{
+        height: 28vh;
+    }
+
+    .src-img {
+        position: absolute;
+        width: 30vw;
+        z-index: 5;
     }
 }
