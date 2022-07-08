@@ -29,7 +29,7 @@ let aac = setInterval(fac);
     }
 
 // Mengatur waktu akhir perhitungan mundur
-var countDownDate = new Date("July 14, 2022 23:00:00").getTime();
+var countDownDate = new Date("July 22, 2022 15:30:00").getTime();
 
 // Memperbarui hitungan mundur setiap 1 detik
 var x = setInterval(function() {
