@@ -84,6 +84,11 @@ li{
     z-index: 0;
     color: #fff;
 }
+.res-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .bg-tnkb {
     position: absolute;
     z-index: -1;
@@ -95,12 +100,12 @@ li{
 }
 
 .logos-imc-b {
-    width: 12vw;
+    width: 10vw;
     border-radius: 100%;
     background-color: #fff;
 }
 .title-b{
-    width: 30vw;
+    width: 20vw;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -125,6 +130,11 @@ li{
     margin-top: 50px;
 }
 .Bma{
+    position: relative;
+}
+.Book-Man{
+    display: block;
+    width: 12vw;
     color: #000;
     font-weight: bold;
     background-color: var(--cee--);
@@ -132,9 +142,9 @@ li{
     border-radius: 15px;
     margin-bottom: 20px;
     margin-top: 40px;
-    padding: 20px;
+    padding: 15px;
 }
-.Bma:hover{
+.Book-Man:hover{
     color: var(--cee--);
     font-weight: bold;
         background-color: #000;
@@ -142,15 +152,28 @@ li{
         border-radius: 15px;
         margin-bottom: 20px;
         margin-top: 40px;
-        padding: 20px;
+        padding: 15px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) { 
+    .Oriented{
+        background-image: url(/image/website-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-tnkb-b{
+        visibility: hidden;
+    }
+
     .logos-imc-b {
+        visibility: hidden;
         width: 20vw;
     }
 
     .title-b {
+        visibility: hidden;
         width: 60vw
+        
     }
 
     .liori {
@@ -163,13 +186,13 @@ li{
     .Csa1,
     .Csa2,
     .Csa3,
-    .Csa4 {
+    .Csa4, .Book-Man {
         padding: 10px;
         width: fit-content;
         font-size: 12px;
     }
-    .Bma{
-        padding: 15px;
+    .Book-Man{
+        width: 40vw; !important
     }
 }
 /*! Section Tentang Kami ************************************************************************************/
@@ -425,7 +448,6 @@ li{
     position: relative;
     z-index: 2;
 }
-
 @media only screen and (max-width: 768px) {
     .st {
         padding: 8px;
