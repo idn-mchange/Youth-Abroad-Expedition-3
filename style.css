@@ -156,7 +156,7 @@ li{
 }
 @media only screen and (max-width: 768px) { 
     .Oriented{
-        background-image: url(/website-1.jpg);
+        background-image: url(/image/website-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -192,7 +192,7 @@ li{
         font-size: 12px;
     }
     .Book-Man{
-        width: 40vw; !important
+        width: 40vw !important; 
     }
 }
 /*! Section Tentang Kami ************************************************************************************/
@@ -242,7 +242,7 @@ li{
         justify-content: space-between;
         margin-left: 20px;
 }
-.img-eks{width: 24vw; margin-right: 60px;}
+.img-eks{width: 20vw; margin-right: 60px;}
 @media only screen and (max-width: 768px){
     .sw{
         height: 85vh;
@@ -500,12 +500,21 @@ li{
 border-top: 30px solid #fff;
 border-bottom: 30px solid #fff;
 }
-.cd-a{
+.desc-motlet{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cd-a, .cd-a-1{
     color: #fff;
     padding: 10px;
     text-align: center;
 }
-.cd-a:hover{
+.cd-a-1{
+    border: #fff 2px solid;
+    border-radius: 0px;
+}
+.cd-a .cd-a-1:hover{
     box-sizing: border-box;
     border: #fff 2px solid;
     border-radius: 5px;
@@ -544,6 +553,19 @@ p#hari, #jam, #menit, #detik{
         #detik {
             font-size: 20px;
         }
+                .cd-H {
+                    color: #fff;
+                    text-align: center;
+                    font-size: 20px;
+                    margin: 15px;
+                }
+                .cd-flex-r{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .desc-motlet{
+                    font-size: 12px;
+                }
 }
 
 /*! ********************************************************************************************************/
